@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: pink;
+        }
+       .picture{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 120px;
+    padding: 90px;
+    padding-left: 500px;
+    
+       }
+       #kissme{
+        border-radius: 130px;
+        
+        
+       }
+       .invite{
+    align-items: center;
+    justify-content: center;
+    background-color:transparent;
+    color:black;
+    text-align: center;
+    display: flex;
+   
+       }
+       .yesbutton{
+        border: 0cap;
+            color: black;
+            background-color: green;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+            padding-right: 30px;  
+            font-weight: bold; 
+            border-radius: 50px;  
+            cursor: pointer;
+            text-align: right;
+       }
+       .nobutton{
+        border: 0cap;
+            color: black;
+            background-color: red;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+            padding-right: 30px;  
+            font-weight: bold; 
+            border-radius: 50px;  
+            cursor: pointer;
+       }
+       .bbutton{
+        padding-left: 500px;
+        padding-top: 60px;
+       }
+      
+    </style>
+</head>
+<body>
+    <div class="picture">
+        <img id="kissme" src="valentine.jpg" alt="" width="150" height="150">
+        
+    </div>
+  <div class="invite">
+    <h1 id="inviteword" >WOULD YOU BE MY VALENTINE?</h1>
+    
+  </div>
+  <div class="bbutton">
+    <button  class="yesbutton" onclick="yes();">yes</button>      <button class="nobutton" onclick="no();">no</button>
+       
+  </div>
+    
+</body>
+<script src="fontpage.js"></script>
+</html>
